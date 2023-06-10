@@ -48,16 +48,19 @@ const NavBar = () => {
       >
         <i className="fas fa-stream"></i>Feed
       </NavLink>
+
       <NavLink
         className={styles.NavLink}
         activeClassName={styles.Active}
         to="/liked"
       >
-        <i className="fas fa-heart"></i>Wish List
+        <i className="fas fa-heart"></i>Saved
       </NavLink>
+
       <NavLink className={styles.NavLink} to="/" onClick={handleSignOut}>
         <i className="fas fa-sign-out-alt"></i>Sign out
       </NavLink>
+      
       <NavLink
         className={styles.NavLink}
         to={`/profiles/${currentUser?.profile_id}`}
