@@ -1,0 +1,37 @@
+.Form {
+    border: 1px #0ed1e0 solid;
+  }
+  
+  .FormRating {
+    max-width: 25%;
+    margin: auto;
+  }
+  
+  .FormContent {
+    max-width: 75%;
+    margin: auto;
+  }
+  
+  .ReviewHeading {
+    font-family: "Tomorrow", sans-serif;
+    text-transform: uppercase;
+    color: #8f4cfc;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .Button {
+    border: none;
+    background-color: #242a3d;
+    color: #0ed1e0;
+    border-radius: 100px;
+    padding: 4px 10px;
+    min-width: 75px;
+    margin: 5px;
+  }
+  
+  .Button:hover {
+    cursor: pointer;
+    background-color: #0ed1e0;
+    color: #242a3d;
+  }

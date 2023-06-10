@@ -1,0 +1,33 @@
+.Owner {
+    font-weight: bold;
+    color: #8f4cfc;
+    margin-right: 8px;
+  }
+  
+  .Date {
+    font-weight: lighter;
+    color: #c1c1c5;
+  }
+  
+  .Rating {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .Rating i {
+    color: #000;
+    font-size: 85%;
+    margin-bottom: 4px;
+  }
+  
+  .Heart {
+    color: #f85032;
+  }
+  
+  .Heart:hover {
+    color: #8f4cfc;
+  }
+  
+  .HeartOutline:hover {
+    color: #f85032;
+  }
