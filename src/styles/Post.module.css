@@ -1,9 +1,10 @@
 .Post {
-    background-color: #8e8d8d;
+    background-color: #d2eae1;
     border: 1px solid #060606;
-    border-radius: 2px;
+    border-radius: 8px;
     margin-bottom: 16px;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   
   .Post figure,
@@ -16,7 +17,7 @@
   }
   
   .Heart:hover {
-    color: #015f2c;
+    color: #890202;
   }
   
   .HeartOutline:hover {
