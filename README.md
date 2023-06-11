@@ -1,8 +1,8 @@
-# **PetFriends**
+# **Rate your plants**
 
-This is a social media platform for plant Lovers! One can create an account in order to create ost
+This is a social media platform for plant lovers! One can create an account, post pictures of their favorite plants with information about them as well as rate them in order of difficulty to care for. A signed in user can also save other users posts in order to keep a sort of “wish list” of plants.
 
-This project is the final of five projects that need to be completed to receive a diploma in Software Development from The Code Institute.
+This project is the final of 5 projects that need to be completed to receive a diploma in Fullstack Software Development from The Code Institute.
 
 ## **Responsive screen display**
 

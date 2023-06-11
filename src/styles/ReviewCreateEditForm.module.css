@@ -1,5 +1,5 @@
 .Form {
-    border: 1px #0ed1e0 solid;
+    border: 1px #398378 solid;
   }
   
   .FormRating {
@@ -23,7 +23,7 @@
   .Button {
     border: none;
     background-color: #242a3d;
-    color: #0ed1e0;
+    color: aliceblue;
     border-radius: 100px;
     padding: 4px 10px;
     min-width: 75px;
@@ -32,6 +32,6 @@
   
   .Button:hover {
     cursor: pointer;
-    background-color: #0ed1e0;
+    background-color: aliceblue;
     color: #242a3d;
   }

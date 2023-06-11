@@ -31,11 +31,11 @@ function ReviewCreateForm(props) {
         ...prevReviews,
         results: [data, ...prevReviews.results],
       }));
-      setGame((prevGame) => ({
+      setReviews((prevPost) => ({
         results: [
           {
-            ...prevGame.results[0],
-            reviews_count: prevGame.results[0].reviews_count + 1,
+            ...prevPost.results[0],
+            reviews_count: prevPost.results[0].reviews_count + 1,
           },
         ],
       }));

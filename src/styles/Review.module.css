@@ -1,12 +1,12 @@
 .Owner {
     font-weight: bold;
-    color: #8f4cfc;
+    color: #556d5d;
     margin-right: 8px;
   }
   
   .Date {
     font-weight: lighter;
-    color: #c1c1c5;
+    color: #f1ede2;
   }
   
   .Rating {
@@ -25,7 +25,7 @@
   }
   
   .Heart:hover {
-    color: #8f4cfc;
+    color: #890202;
   }
   
   .HeartOutline:hover {

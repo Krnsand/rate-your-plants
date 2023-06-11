@@ -21,7 +21,7 @@ const Review = (props) => {
     content,
     rating,
     id,
-    setGame,
+    setPost,
     setReviews,
     likes_count,
     like_id,
@@ -34,11 +34,11 @@ const Review = (props) => {
   const handleDelete = async () => {
     try {
       await axiosRes.delete(`/reviews/${id}/`);
-      setGame((prevGame) => ({
+      setPost((prevPost) => ({
         results: [
           {
-            ...prevGame.results[0],
-            reviews_count: prevGame.results[0].reviews_count - 1,
+            ...prevPost.results[0],
+            reviews_count: prevPost.results[0].reviews_count - 1,
           },
         ],
       }));
