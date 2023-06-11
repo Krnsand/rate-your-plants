@@ -1,14 +1,6 @@
 # **PetFriends**
 
-This is a social media for your pets! You can make your beloved pets a profile so they can post silly photos of themselves and follow, vote (or downvote), and comment on other pets' profiles! All pets are welcome! From cats, dogs, hedgehogs, lizards, and so on. The site is a content-sharing platform, which, and once you sign up, you will be redirected to sign in and then redirected to the home page/main feed. From there you can click on your profile icon in the top right of the NavBar and see your profile stats - which is a count of how many posts you've added, how many users you follow, and how many users follow you - see your posts and click on the bars to edit your profile, password, and username. Personalise your pet's profile with a picture and a bio, a little bit about your pet!
-
-Once your pet follows a few profiles, you'll be able to see said followed profiles in the "PawFeed" section from the NavBar. The NavBar also contains a "Saved" section, which allows you to see posts that you (your pets) specifically saved.
-
-There is a sidebar featured on the posts and profile pages, which displays the most followed users for a "Recommended users to follow" feature.
-
-Once you're on the HomePage, you can "Add post", you can also use the search bar above the "Add post" section to search through all posts using a keyword or a user's name. 
-
-On the post's page, you will see the full post on a card, the count of votes/downvotes, along with the reply section at the bottom of the post. The three dots on the side of a post you own allow you to edit or delete your posts, and the three dots beside a reply allows for the same functions.
+This is a social media platform for plant Lovers! One can create an account in order to create ost
 
 This project is the final of five projects that need to be completed to receive a diploma in Software Development from The Code Institute.
 
