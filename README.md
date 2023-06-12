@@ -295,15 +295,13 @@ The CRUD functionality for this project is as follows:
 Future plans for this project include:
 
 - Add more fields for a user to add to their profile. Such as location, age, and/or email address and other social media platforms.
-- Add a meow/bark feature, similar to "poke" on Facebook, as an alert or notification.
-- Add votes and downvotes count to profile stats.
-- Add a feature to allow users to see who voted for their posts.
+- Add upvotes and downvotes count to profile stats.
 - Allow users to delete their profile.
 
 ### **Components**
 * Asset.js - component for the spinner seen while the page is loading, used in PostFeed.js, PostsFeed.js, PopularProfiles.js & ProfilePage.js files.
 
-* Avatar.js - component used for displaying the profile image. Used in NavBar.js, Post.js, Profile.js, ProfilePage.js, Reply.js, and ReplyCreateForm.js files.
+* Avatar.js - component used for displaying the profile image. Used in NavBar.js, Post.js, Profile.js, ProfilePage.js files.
 
 * MoreDropdown.js - component used for the functionality and display of the icons to edit/delete posts, comments, and profiles. Only shown to the owner of such posts and their profiles.
 
@@ -331,11 +329,10 @@ Future plans for this project include:
 - [Am I Responsive?](https://ui.dev/amiresponsive): to ensure the project looked good across all devices.
 - [HTML Markup Validation](https://validator.w3.org/): used to validate HTML code syntax.
 - [CSS Validation Service](https://jigsaw.w3.org/css-validator/): used to validate CSS code syntax.
-- [Balsamiq](https://balsamiq.com/): used to create mockups/wireframes of the project prior to starting.
+- [Figma](https://www.figma.com/): used to create mockups/wireframes of the project prior to starting.
 - [Google Fonts](https://fonts.google.com/): a computer font and web font service owned by Google. This includes free and open source font families.
 - [GitHub](https://github.com/): an Internet hosting service for software development and version control using Git.
-- [Heroku](https://heroku.com/): a cloud platform as a service (PaaS) supporting several programming languages. Used to 
-deploy and store for final deployment.
+- [Heroku](https://heroku.com/): a cloud platform as a service (PaaS) supporting several programming languages. Used to deploy and store for final deployment.
 
 ### **Databases platform and cloud storage**
 
@@ -343,6 +340,7 @@ deploy and store for final deployment.
 - Heroku Postgres: SQL database service provided directly by Heroku for storing data.
 - Cloudinary: to store images and static files in production.
 - Heroku: to deploy and run the application in production.
+
 
 ## **Testing**
 ### **Introduction**
