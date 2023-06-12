@@ -4,7 +4,6 @@ import Form from "react-bootstrap/Form";
 
 import appStyles from "../../App.module.css";
 import styles from "../../styles/ReviewCreateEditForm.module.css";
-import btnStyles from "../../styles/Button.module.css";
 import { axiosRes } from "../../api/axiosDefaults";
 
 function ReviewCreateForm(props) {
@@ -74,12 +73,12 @@ function ReviewCreateForm(props) {
         </Form.Group>
 
         <button
-          className={`${btnStyles.Button} ${btnStyles.Blue} btn d-block m-auto`}
-          disabled={!content.trim()}
-          type="submit"
-        >
-          post
-        </button>
+        className={`${styles.Button} btn d-block ml-auto`}
+        disabled={!content.trim()}
+        type="submit"
+      >
+        post
+      </button>
       </Form>
     </>
   );
