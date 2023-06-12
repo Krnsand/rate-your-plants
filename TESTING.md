@@ -22,7 +22,7 @@ This project has been continuously tested throughout the development stages usin
 
 #### **LightHouse testing**
 
-All results for performance are extremely bad even after drastically compressing all the images.
+- All results for **performance** are extremely bad even after drastically compressing all the images.
 
 * **For Desktop:**
 
