@@ -124,7 +124,9 @@ const Post = (props) => {
               placement="top"
               overlay={<Tooltip>Log in to save posts!</Tooltip>}
             >
+              <Link to={`/signin/`}>
               <i className="far fa-heart" />
+              </Link>
             </OverlayTrigger>
           )}
           {likes_count}
