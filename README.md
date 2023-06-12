@@ -280,12 +280,6 @@ The CRUD functionality for this project is as follows:
 
 ![screenshot](documentation/test_screenshots/no-save.png)
 
-* If you choose to edit or delete your post, clicking the three dots on the right side of the post's image on the post page, will show the following pop-up messages once you hover over each icon, to ensure you know what you're doing before you click:
-
-![screenshot](documentation/test_screenshots/EditPostDefensive.png) 
-
-![screenshot](documentation/test_screenshots/DeletePostDefensive.png)
-
 * In the "Add post" section, leaving the title input blank, or not choosing an image file, will show the following message:
 
 ![screenshot](documentation/test_screenshots/no-create.png)
@@ -297,6 +291,7 @@ Future plans for this project include:
 - Add more fields for a user to add to their profile. Such as location, age, and/or email address and other social media platforms.
 - Add upvotes and downvotes count to profile stats.
 - Allow users to delete their profile.
+- Allow users to see who follows them, not just how many
 
 ### **Components**
 * Asset.js - component for the spinner seen while the page is loading, used in PostFeed.js, PostsFeed.js, PopularProfiles.js & ProfilePage.js files.
@@ -352,31 +347,34 @@ This project has been continuously tested throughout the development stages usin
 Please see my [testing file](TESTING.md) for all manual and validator testing
 
 
-## **Deployment**
+## Deployment
 
-### **GitHub**
-The following bullet points detail the steps gone through to set up this project on GitHub:
-- Create a Repository on GitHub (Not using any Code Institue Template).
-- Create a new workspace. Once the workspace has started, run the following command in the terminal window:
+### Local Deployment
 
-    *npx create-react-app . --template git+https://github.com/Code-Institute-Org/cra-template-moments.git --use-npm*
+To test the app locally, the terminal within VScode was used. The steps to run this:
 
-- Enter "y" to confirm installing the create-react-app package.
-- Once the packages have been installed, run *npm start* to check that react is working correctly.
-- Once you can see it's running efficiently, go into the App.js file and remove the React Custom header and replace it with a test text "Hello, world!", and remove the logo import at the top of the page.
-- In the preview window, you should see the test text show up now.
-- Once you see this test text, add, commit, and push your changes.
+* In your project workspace folder, open a terminal
+* Run the command: ```npm start```
+* Hit the 'open browser' button or visit ```http://localhost:3000``` in the browser.
+* Use the website as usual.
+ 
+### Production Deployment Initial
 
-### **Heroku**
-The following bullet points detail the steps gone through to set up this project on Heroku:
-- In Heroku: Click on the "new" button and follow the steps to create a new app, noting that a unique name is required.
-- Once your unique name is chosen and you've selected your appropriate region, click "Create app".
-- Once this app is created, in the "deploy" tab in Heroku, you can connect this to your GitHub repository.
-- From the "Deployment method" section, choose GitHub, enter the name of the repo just created and use the search feature to find it, and then click "connect".
-- When you've successfully connected your repo. Go to the 'Manual Deploy' section and click 'Deploy Branch'. Click on 'build logs' to monitor the build and ensure deployment is successful. The build is completed when the log says 'Build succeeded!'.
-- Next step is to install Bootstrap 4, by typing the following command in the terminal window:
+Before starting the work, the project was deployed to Heroku. This was done early in the process, to prevent having to deal with difficulties of deployment close to the project deadline. The following steps were performed for deployment:
 
-    *npm install react-bootstrap@1.6.3 bootstrap@4.6.0*
+#### Create Heroku app:
+
+* Login in to Heroku
+* Create a new app.
+* Select "New" and "Create new app".
+* Give the new app a name and click "Create new app".
+* Select a region (Europe for this app).
+
+
+#### Deploy App on Heroku:
+
+* Under "Deployment Method" click on "GitHub" to get access to your repository.
+* Enable Automatic Deploys" and/or click "Deploy Branch" to deploy your app.
 
 
 ## **Credits**

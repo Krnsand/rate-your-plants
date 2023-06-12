@@ -17,7 +17,6 @@ const Review = (props) => {
     profile_id,
     profile_image,
     owner,
-    post,
     updated_at,
     content,
     rating,
