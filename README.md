@@ -32,8 +32,7 @@ A live version of this website will be found here: https://rate-your-plants.hero
 </details>
 <details><summary>Design</summary>
 
-- [Colour Scheme](#colour-scheme "Colour Scheme")
-- [Typography](#typography "Typography")
+- [Colour Scheme](#color-scheme "Color Scheme")
 - [Iconography](#iconography "Iconography")
 - [Wireframes](#wireframes "Wireframes")
 - [Images](#images "Images")
@@ -44,8 +43,7 @@ A live version of this website will be found here: https://rate-your-plants.hero
 - [NavBar](#navbar "NavBar")
 - [Home Landing Page](#home-landing-page "Home Landing Page")
 - [Post Page](#post-page "Post Page")
-- [About Page](#about-page "About Page")
-- [PawFeed](#pawfeed "PawFeed")
+- [Feed](#feed "Feed")
 - [Saved](#saved "Saved")
 - [Profile Page](#profile-page "Profile Page")
 - [Sign-in](#sign-in "Sign-in")
@@ -98,40 +96,33 @@ A live version of this website will be found here: https://rate-your-plants.hero
 
 ### **User Demographic**
 
-This application has been designed for pets of all kinds and ages who want to share content and make some new friends!
-Make your pet a profile, add a post and start interacting with fellow pets! 
+This application has been designed for people who love plants of all kinds and who want to share content and make some new friends!
+Make a profile, add a post and start interacting with fellow plant nerds! 
 
 ### **Site Goals**
 
-The goal for this site has been to build a content sharing platform to allow users to make social media profiles for their pets, add posts, follow and unfollow other users, vote or downvote for posts, as well as save them, and reply to other users' posts too! You can also use the provided search bar to search through the posts with a keyword or a user's name. 
+The goal for this site has been to build a content sharing platform to allow users to make social media profiles, add posts, follow and unfollow other users, rate and review other users posts, as well as save them! You can also use the provided search bar to search through the posts with a keyword or a user's name. 
 
 
 ### **Audience**
 
-For your pets! Especially those looking to make new friends. For users who just want to see photos of pets!
+Everyone who loves plants! Especially for those who want to learn more about them and how to best take care of them.
 
 
 ### **User Stories**
-User Stories and Backend Tasks can be found in this GitHub repository project Kanban board, and for this project, all user stories can be found [here](https://github.com/users/JodyMurray/projects/11)
+User Stories and Backend Tasks can be found in this GitHub repository project Kanban board, and for this project, all user stories can be found [here](https://github.com/users/Krnsand/projects/5)
 
 ## **Design**
 
-### **Colour Scheme**
-The colour scheme was chosen from researching trending colour schemes on this website:
-[coolers](https://coolors.co/palettes/trending).
-- The background colour for the app is  *rgb(249, 251, 251)*
-- The background colour for the content boxes is *rgb(246, 239, 245)*
-- The background colour for the NavBar is a linear-gradient *(to right, rgba(241, 231, 254), rgba(213, 184, 255))*
-- The background colour for the downVotes and saved icons in posts is *rgb(7, 108, 108)*
-- The background colour for headings in the signup/in page is *rgb(122,	33,	178)*
-- The background colour for the "light" buttons is *rgb(122, 33, 178), rgb(221, 198, 236)*
-- The background colour for the unfollow button is *rgb(139, 227, 218), rgb(46, 205, 189)*
+### **Color Scheme**
+The color scheme was chosen from researching trending color schemes on this website as well as matching it with an earthy logo:
+[brandmark](https://app.brandmark.io/v3/).
 
-The colour palette in order as mentioned above.
-The source to put this palette together was [here](https://colorhunt.co/)
+The color palette as mentioned above.
 
-![screenshot](documentation/test_screenshots/colourScheme1.png)
-![screenshot](documentation/test_screenshots/colourScheme2.png)
+![screenshot](documentation/test_screenshots/colors.png)
+![screenshot](documentation/test_screenshots/logo-colors.png)
+![screenshot](documentation/test_screenshots/logo.png)
 
 
 
