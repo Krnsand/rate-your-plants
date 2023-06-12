@@ -136,9 +136,8 @@ The link To GitHub KanBan Project - [here](https://github.com/users/Krnsand/proj
     * Solution: .
 
 ### **Unfixed bugs**
-- No unfixed bugs to report during the production of this project.
+- Writing a very long id (for example: /profiles/123jkhkjh4e3/) does not raise an error, t just loads forever. This is something I will look into in the future.
 
-- One thing to note is when doing the lighthouse report, best practices for the sign-in and sign-up page show a result of 75, the image shows up tagged as low resolution.
 - There are errors in the console of these pages, that were also brought up during the walkthrough Moments. The errors are as follows:
 
 *Failed to load resource: the server responded with a status of 401 (Unauthorized)*
