@@ -517,7 +517,7 @@ The following bullet points detail the steps gone through to set up this project
 
 - The Moments walkthrough was used as a guide for this project, it served as a major help in creating this site.
 - My mentor at Code Institute - Martina Terlevic.
-- Keiron Chaudhry, a fellow student, and great support!
+- Tutor Support at Code Institute for helping me migrate and fix my database when there had been an update.
 
 - Extra big thank you to Code Institute for this entire course, it's been a great journey so far, and the tools and support provided during this course were amazing!
 
@@ -527,20 +527,16 @@ The following bullet points detail the steps gone through to set up this project
 - The Moments walkthrough was the main source I used as a guide for this project.
 - [YouTube](https://www.youtube.com/)
 - [Stack Overflow](https://stackoverflow.com/)
-- [GeeksForGeeks](https://www.geeksforgeeks.org/)
 - [Slack](https://www.slack.com/) - for helpful tips from fellow students!
 - [W3 Schools](https://www.w3schools.com/)
-- Box shadow examples found - [here](https://getcssscan.com/css-box-shadow-examples)
-- [Grammarly](https://app.grammarly.com/) - for spell checking the readme and about page.
-- [Color hunt](https://colorhunt.co/) - for the colour palette in the design section.
+- [Brandmark](https://app.brandmark.io/v3/) - for the colour palette in the design section.
 
 
 ### **Media**
 
-- The media sourced for this website, were mostly found on Google.
-- Other images were from friends and family, photos of their pets. And my own pet's images also.
-- The logo was generated using a logo generator from this website - [Looka](https://looka.com/)
-- The background remover tool was very useful to help with the logo and favicon - [here](https://www.remove.bg/)
+- The media sourced for this website, were mostly found on [Unsplash](https://unsplash.com/).
+- Other images were from me and friends.
+- The logo was generated using a logo generator from this website - [Brandmark](https://app.brandmark.io/v3/)
 - The image for favicon was generated through - [favicon.io](https://favicon.io/)
 - The image for the responsive design at the top of the ReadMe was generated through - 
 [am i responsive?](https://ui.dev/amiresponsive)
@@ -548,4 +544,4 @@ The following bullet points detail the steps gone through to set up this project
 
 Thank you!
 
-[Back to top](#petfriends)
+[Back to top](#Rate your plants)
