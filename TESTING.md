@@ -79,8 +79,8 @@ Manual testing for this project was carried out as follows:
 
 6: User: Admin remove users - *”As an administrator I can remove users in case of inappropriate behavior or other reasons”* ✅
 
-7: User: Authentication - Create account - *"As a user I can create a new account so that I can access all the features for signed up users."*
-✅
+7: User: Authentication - Create account - *"As a user I can create a new account so that I can access all the features 
+for signed up users."* ✅
 
 8: User: Authentication - Sign in - *"As a user I can sign in to the app so that I can access functionality and features for logged in users."* ✅
 
@@ -88,11 +88,14 @@ Manual testing for this project was carried out as follows:
 
 10: User: Authentication - Refreshing access tokens - *"As a user I can maintain my logged-in status (for 24hrs) until I choose to log out so that my user experience is not compromised."* ✅
 
-11: User: Navigation: Conditional rendering - *"As a logged out user I can see sign in/sign up options so that I can sign in/sign up."* ✅
+11: User: Navigation: Conditional rendering - *"As a logged out user I can see sign in/sign up options so that I 
+can sign in/sign up."* ✅
 
-12: User: Others profiles - *"As a signed in user I can view other users profiles to see only their posts and bio and read more about them."* ✅
+12: User: Others profiles - *"As a signed in user I can view other users profiles to see only their posts and bio and read more 
+about them."* ✅
 
-13: User: Create posts - *"As a logged in user I can create posts so that I can share my images and image content with my followers."* ✅
+13: User: Create posts - *"As a logged in user I can create posts so that I can share my images and image content 
+with my followers."* ✅
 
 14: User: Specific post - *"As a user I can view a specific post to get more info about it."* ✅
 
@@ -102,11 +105,13 @@ Manual testing for this project was carried out as follows:
 
 17: User: Searchbar filter - *"As a user, I can search for posts with keywords, so that I can find the posts and user profiles that I prefer to see."* ✅
 
-18: User: View liked/saved posts - *"As a logged in user I can view the posts I liked/saved so that I can find the posts that I love."* ✅
+18: User: View liked/saved posts - *"As a logged in user I can view the posts I liked/saved so that I can find the posts 
+that I love."* ✅
 
 19: User: Infinite scroll - *"As a user I can keep scrolling through the images on the site, which are loaded automatically so that there is no need for a "next page/previous page" option."* ✅
 
-20: User: Edit posts/comments - *"As a signed in user, I can edit my posts and comments so that I can change them if I want to."* ✅
+20: User: Edit posts/comments - *"As a signed in user, I can edit my posts and comments so that I can change them if I 
+want to."* ✅
 
 21: User: Delete posts/comments - *"As a signed in user, I can delete my posts and comments so that I can have control over what I show."* ✅
 
