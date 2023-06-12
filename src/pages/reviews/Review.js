@@ -17,6 +17,7 @@ const Review = (props) => {
     profile_id,
     profile_image,
     owner,
+    post,
     updated_at,
     content,
     rating,
@@ -132,7 +133,7 @@ const Review = (props) => {
             ) : (
               <OverlayTrigger
                 placement="top"
-                overlay={<Tooltip>Log in to like games!</Tooltip>}
+                overlay={<Tooltip>Log in to review posts!</Tooltip>}
               >
                 <i className="far fa-heart" />
               </OverlayTrigger>

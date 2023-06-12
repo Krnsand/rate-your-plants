@@ -7,7 +7,7 @@ import styles from "../../styles/ReviewCreateEditForm.module.css";
 import { axiosRes } from "../../api/axiosDefaults";
 
 function ReviewCreateForm(props) {
-  const { setReviews } = props;
+  const { setReviews, setPost, post } = props;
   const [content, setContent] = useState("");
   const [rating, setRating] = useState(1);
 
@@ -25,12 +25,13 @@ function ReviewCreateForm(props) {
       const { data } = await axiosRes.post("/reviews/", {
         content,
         rating: parseInt(rating),
+        post,
       });
       setReviews((prevReviews) => ({
         ...prevReviews,
         results: [data, ...prevReviews.results],
       }));
-      setReviews((prevPost) => ({
+      setPost((prevPost) => ({
         results: [
           {
             ...prevPost.results[0],

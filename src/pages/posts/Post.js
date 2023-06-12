@@ -134,6 +134,9 @@ const Post = (props) => {
             <i className="far fa-comments" />
           </Link>
           {comments_count}
+          <Link to={`/posts/${id}`}>
+            <i className="far fa-star" />
+          </Link>
         </div>
       </Card.Body>
     </Card>
