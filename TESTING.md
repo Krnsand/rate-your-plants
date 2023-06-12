@@ -132,11 +132,11 @@ The link To GitHub KanBan Project - [here](https://github.com/users/Krnsand/proj
 
 ### **Fixed bugs and solutions**
 
-- The reviews disapeared when the pages were refreshed.
+- The reviews disappeared when the pages were refreshed.
     * Solution: I had missed to connect the reviews to the api, after adding another axiosReq.get it worked great.
 
 ### **Unfixed bugs**
-- Writing a very long id (for example: /profiles/123jkhkjh4e3/) does not raise an error, t just loads forever. This is something I will look into in the future.
+- Writing a very long id in the url (for example: .../profiles/123jkhkjh4e3/) does not raise an error, it just loads forever. This is something I will look into in the future.
 
 - There are errors in the console of these pages, that were also brought up during the walkthrough Moments. The errors are as follows:
 
