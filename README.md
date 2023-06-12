@@ -194,7 +194,7 @@ The home screen and landing page, with the "most followed profiles" sidebar.
 ### **Post Page**
 
 - The post's page, with the "most followed profiles" sidebar.
-- A heart to like/save a post, a speech bubble to comment any but one’s own post, and a star to leave a review. Each icon goes a solid color once a user has clicked on it, these icons will also undo the action if clicked on again.
+- A heart to like/save a post, a speech bubble to comment any post, and a star to leave a review. Each icon goes a solid color once a user has clicked on it, these icons will also undo the action if clicked on again.
 - The three dots on the side of the post image is the button to edit or delete your post.
 - The comment section, create, edit, and delete your comments.
 - The review/rate section, create, edit, and delete your review.
@@ -395,7 +395,7 @@ Before starting the work, the project was deployed to Heroku. This was done earl
 - [Stack Overflow](https://stackoverflow.com/)
 - [Slack](https://www.slack.com/) - for helpful tips from fellow students!
 - [W3 Schools](https://www.w3schools.com/)
-- [Brandmark](https://app.brandmark.io/v3/) - for the colour palette in the design section.
+- [Brandmark](https://app.brandmark.io/v3/) - for the color palette in the design section.
 
 
 ### **Media**
