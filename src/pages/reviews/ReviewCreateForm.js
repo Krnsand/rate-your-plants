@@ -27,7 +27,6 @@ function ReviewCreateForm(props) {
         rating: parseInt(rating),
         post,
       });
-      console.log(data)
       setReviews((prevReviews) => ({
         ...prevReviews,
         results: [data, ...prevReviews.results],
