@@ -134,90 +134,94 @@ All fonts are from the Google Fonts library. The following fonts were chosen for
 
 ### **Iconography**
 
-The logo used for this project was made using [Looka](https://looka.com/explore).
-
-![screenshot](documentation/features/LogoShot.png)
-
-- Other icons were taken from [Font Awesome](https://fontawesome.com/)
+- Most icons were taken from [Font Awesome](https://fontawesome.com/)
+- Icons for “Not found” and “Upload” were taken from [flaticon](https://www.flaticon.com/)
 
 ### **Wireframes**
 
 Wireframe for home page/feed:
 
-![screenshot](documentation/wireframes/wireframes1.png)
+![screenshot](documentation/wireframes/home-desk.png)
+<br>
+<br>
+
+Wireframe for home page/feed mobile:
+
+![screenshot](documentation/wireframes/home-mobile.png)
 <br>
 <br>
 
 Wireframe for post page:
 
-![screenshot](documentation/wireframes/wireframes2.png)
+![screenshot](documentation/wireframes/post-desk.png)
+<br>
+<br>
+
+Wireframe for post page mobile:
+
+![screenshot](documentation/wireframes/post-mobile.png)
 <br>
 <br>
 
 Wireframe for profile page:
 
-![screenshot](documentation/wireframes/wireframes3.png)
+![screenshot](documentation/wireframes/profile-desk.png)
 <br>
 <br>
 
-Wireframe for the page to create a form:
+Wireframe for profile page mobile:
 
-![screenshot](documentation/wireframes/wireframes4.png)
+![screenshot](documentation/wireframes/profile-mobile.png)
 <br>
 <br>
 
 ### **Images**
 
-All images for the website's pages were sourced through google and stored on Cloudinary.
+All images for the website's pages were taken from [unsplash](https://unsplash.com/) or taken by me, and stored on Cloudinary.
 
-The images used for the posts and pet profiles were sourced from google, but mostly from pets I live with (Yoda) and my friend's pets. 
+The images used for the posts and profiles were sourced from unsplash. 
 
 ## **Features**
 
 ### **NavBar**
 NavBar, the user is not logged in.
 
-![screenshot](documentation/features/NavBar2.png)
+![screenshot](documentation/features/navbar-out.png)
 
 NavBar, the user is logged in.
 
-![screenshot](documentation/features/NavBar.png)
+![screenshot](documentation/features/navbar-in.png)
 
 ### **Home Landing Page**
 
-The home screen and landing page, with the "recommended users to follow" sidebar.
+The home screen and landing page, with the "most followed profiles" sidebar.
 
-![screenshot](documentation/features/HomePage.png)
+![screenshot](documentation/features/home.png)
 
 ### **Post Page**
 
-- The post's page, with the recommended user to follow sidebar.
-- Thumbs up and thumbs down buttons to upvote or downvote any post to your desire. Each icon goes a solid colour once a user has clicked on it, these icons will also undo the action if clicked on again.
-- On the top right of the post beside the date posted, you have a bookmark icon to save this post, which later you can view in the "Saved" section from the NavBar. If you save a post, it will be indicated by the "bookmark" icon, which goes a solid colour once it's clicked, if clicked again, this will undo the action of saving the post.
+- The post's page, with the "most followed profiles" sidebar.
+- A heart to like/save a post, a speech bubble to comment any but one’s own post, and a star to leave a review. Each icon goes a solid color once a user has clicked on it, these icons will also undo the action if clicked on again.
 - The three dots on the side of the post image is the button to edit or delete your post.
-- And the comment section, create, edit, and delete your comments!
+- The comment section, create, edit, and delete your comments.
+- The review/rate section, create, edit, and delete your review.
 
-![screenshot](documentation/features/PostPage1.png)
-![screenshot](documentation/features/PostPage2.png)
+![screenshot](documentation/features/post.png)
+![screenshot](documentation/features/comment.png)
+![screenshot](documentation/features/review.png)
 
 
-### **About Page**
+### **Feed**
 
-Just a little paragraph about the site! This page will only appear in the NavBar if you are not signed in.
+The Feed consists of posts from users that you follow.
 
-![screenshot](documentation/features/About.png)
-
-### **PawFeed**
-
-The PawFeed consists of posts from users that you follow.
-
-![screenshot](documentation/features/PawFeed.png)
+![screenshot](documentation/features/feed.png)
 
 ### **Saved**
 
 The Saved page consists of posts the user has specifically saved for future viewing.
 
-![screenshot](documentation/features/Saved.png)
+![screenshot](documentation/features/saved.png)
 
 ### **Profile Page**
 
@@ -225,35 +229,29 @@ The Saved page consists of posts the user has specifically saved for future view
 - The profile page contains a bio section, the bars in the corner to edit your profile and change your username or password.
 - The page also holds all of the posts that the owner of the page has added.
 
-![screenshot](documentation/features/ProfilePage.png)
+![screenshot](documentation/features/profile.png)
 
 ### **Sign-in**
 
 Sign-in page, along with a link to sign up for an account if you haven't already!
 
-![screenshot](documentation/features/SignIn.png)
+![screenshot](documentation/features/signin.png)
 
 ### **Sign-up**
 
 Sign-up page, along with a link to sign in if you have an account already!
 
 
-![screenshot](documentation/features/SignUp.png)
+![screenshot](documentation/features/signup.png)
 
 ### **No results found**
 #### The "No results image" will appear when:
 
-* The search bar entry does not exist:
+- The search bar entry does not exist
+- An invalid HTTP request is made
+- On the user's profile page, if no posts have been added yet:
 
-![screenshot](documentation/test_screenshots/NoResults2.png)
-
-* An invalid HTTP request is made:
-
-![screenshot](documentation/test_screenshots/NoResults1.png)
-
-* On the user's profile page, if no posts have been added yet:
-
-![screenshot](documentation/test_screenshots/NoResults3.png)
+![screenshot](documentation/test_screenshots/not-found.png)
 
 ### **CRUD**
 The CRUD functionality for this project is as follows:
