@@ -352,159 +352,127 @@ This project has been continuously tested throughout the development stages usin
 ### **Validator Testing**
 - All HTML files passed through the HTML checker with no errors.
 
-![screenshot](documentation/test_screenshots/HTML_validator.png)
+![screenshot](documentation/test_screenshots/html-check.png)
 
 
 - CSS files pass through the Jigsaw validator without error.
 
-![screenshot](documentation/test_screenshots/CSS_validator.png)
+![screenshot](documentation/test_screenshots/css-check.png)
 
 - All JSX code was validated and corrected throughout the development of the project.
 
-![screenshot](documentation/test_screenshots/EsLint.png)
+![screenshot](documentation/test_screenshots/jsx-check.png)
 
 
 #### **LightHouse testing**
+
+All results for performance are extremely bad even after drastically compressing all the images.
 
 * **For Desktop:**
 
     | Section | Performance | Accessibility | Best Practices | SEO |
     | --- | --- | --- | --- | --- |
-    | Home | 73 | 100 | 92 | 100 |
-    | Post Page | 81 | 100 | 92 | 100 |
-    | PawFeed | 73 | 100 | 92 | 100 |
-    | Saved | 73 | 100 | 92 | 100 |
-    | Sign Up | 87 | 100 | 75 | 100 |
-    | Sign in | 87 | 100 | 75 | 100 |
-    | Profile | 83 | 100 | 92 | 100 |
+    | Home | 42 | 97 | 92 | 91 |
+    | Post Page | 45 | 97 | 92 | 100 |
+    | Feed | 29 | 97 | 92 | 100 |
+    | Saved | 30 | 97 | 92 | 100 |
+    | Sign Up | 89 | 88 | 83 | 91 |
+    | Sign in | 92 | 88 | 83 | 91 |
+    | Profile | 48 | 86 | 92 | 91 |
 
 * **For Mobile devices:**
 
     | Section | Performance | Accessibility | Best Practices | SEO |
     | --- | --- | --- | --- | --- |
-    | Home | 51 | 100 | 92 | 100 |
-    | Post Page | 50 | 100 | 92 | 100 |
-    | PawFeed | 53 | 100 | 92 | 100 |
-    | Saved | 51 | 100 | 92 | 100 |
-    | Sign Up | 53 | 100 | 83 | 100 |
-    | Sign in | 53 | 100 | 83 | 100 |
-    | Profile | 51 | 100 | 92 | 100 |
+    | Home | 50 | 97 | 92 | 100 |
+    | Post Page | 22 | 97 | 92 | 100 |
+    | Feed | 41 | 97 | 92 | 100 |
+    | Saved | 27 | 97 | 92 | 100 |
+    | Sign Up | 90 | 97 | 83 | 100 |
+    | Sign in | 91 | 97 | 83 | 100 |
+    | Profile | 39 | 87 | 92 | 92 |
 
 
 ### **Manual Testing**
 Manual testing for this project was carried out as follows: 
-- Users can see sign-in, sign-up, and about pages only when not logged in.
+- Users can see sign-in and sign-up only when not logged in.
 - Users can create a new account.
 - Users can then, sign in to their account and then be redirected to the home page.
 - Users can log out.
-- Once signed in, users can create, vote, save, and reply to posts. They can edit and delete their posts and replies. 
+- Once signed in, users can create, save, comment and review/rate posts. They can edit and delete their posts, comments and reviews. 
 - Users can edit and update their profiles, which include a profile picture, bio entry, and a separate username and password edit feature.
 - All NavLinks and buttons go to their destination.
 - Clicking on the post image brings you to the post's page.
-- You can vote, downvote and save and also undo all of these actions if you change your mind.
-- Once you hover over the votes/replies/save icons, they let you know if you need to sign-in to use this feature, and once clicked on if the user is signed out, you will be redirected to the sign-in page.
+- You can save and undo these actions if you change your mind.
+- Once you hover over the save/comment icons, they let you know if you need to sign-in to use this feature, and once clicked on if the user is signed out, you will be redirected to the sign-in page.
 - The user is notified of what each icon represents. In each post page, if the user is the owner, the three dots to the right side of the post image will bring up the edit and delete feature, both icons have an overlay trigger to indicate which one does what feature.
-- The site was continuously built on google chrome, and once built, it was successfully tested on firefox browser, and safari browser. The only issue found on safari was the inability to sign-in properly, which was resolved after some research on Slack. (mentioned and detailed in the fixed bugs section below) 
-
+- The site was continuously built on google chrome, and once built, it was successfully tested on firefox browser, and edge browser. No issues with either browser.
 
 ### **User story testing**
 **User story:**
 
-1: User: Navigation - *"As a user I can view a NavBar from every page so that I can navigate easily between pages."* ✅
+1: User: Navigation - *”As a user I can easily navigate the site to find what I need”* ✅
 
-2: User: Routing - *"As a user I can navigate through pages quickly and easily so that I can view content without page refresh."* ✅
+2: User: Understand site - *”As a user I can understand quickly what the site is about in order to know if it is for me”* ✅
 
-3: User: Authentication - Sign up - *"As a user I can create a new account so that I can access all the features for signed up users."*
+3: User: Return home - *”As a signed in user, I can click on the logo on any page so that I can easily get back to the home page”* ✅
+
+4: User: Admin access - *”As an administrator I can limit access to other peoples accounts to keep their profiles safe”* ✅
+
+5: User: Admin add users - *”As an administrator I can add new profiles to widen the community”* ✅
+
+6: User: Admin remove users - *”As an administrator I can remove users in case of inappropriate behavior or other reasons”* ✅
+
+7: User: Authentication - Create account - *"As a user I can create a new account so that I can access all the features for signed up users."*
 ✅
 
-4: User: Authentication - Sign in - *"As a user I can sign in to the app so that I can access functionality and features for logged in users."* ✅
+8: User: Authentication - Sign in - *"As a user I can sign in to the app so that I can access functionality and features for logged in users."* ✅
 
-5: User: Authentication - Logged in Status - *"As a user I can always tell if I am logged in or not so that I can log in to use features."* ✅
+9: User: Authentication - Logged in Status - *"As a user I can always tell if I am logged in or not so that I can log in to use features."* ✅
 
-6: User: Authentication - Refreshing access tokens - *"As a user I can maintain my logged-in status (for 24hrs) until I choose to log out so that my user experience is not compromised."* ✅
+10: User: Authentication - Refreshing access tokens - *"As a user I can maintain my logged-in status (for 24hrs) until I choose to log out so that my user experience is not compromised."* ✅
 
-7: User: Navigation: Conditional rendering - *"As a logged out user I can see sign in/sign up options so that I can sign in/sign up."* ✅
+11: User: Navigation: Conditional rendering - *"As a logged out user I can see sign in/sign up options so that I can sign in/sign up."* ✅
 
-8: User: Avatar - *"As a user I can view other user's avatars so that I can easily identify users of the application."* ✅
+12: User: Others profiles - *"As a signed in user I can view other users profiles to see only their posts and bio and read more about them."* ✅
 
-9: User: Create posts - *"As a logged in user I can create posts so that I can share my images and image content with my followers."* ✅
+13: User: Create posts - *"As a logged in user I can create posts so that I can share my images and image content with my followers."* ✅
 
-10: User: View a post - *"As a user I can view the details of a single post so that I can read more."* ✅
+14: User: Specific post - *"As a user I can view a specific post to get more info about it."* ✅
 
-11: User: Like/save a post - *"As a logged in user I can like/save a post so that I can show and see which are my favourite posts."* ✅
+15: User: Save and comment - *"As a signed in user I can save and comment other peoples posts to engage with other users."* ✅
 
-12: User: View most recent posts in order - *"As a user I can view all the most recent posts, ordered by most recently created first so that I am up to date with the most recent content."* ✅
+16: User: Rate posts - *”As a signed in user I can rate things in other peoples posts to engage in the community.”* ✅
 
-13: User: Searchbar filter - *"As a user, I can search for posts with keywords, so that I can find the posts and user profiles that I prefer to see."* ✅
+17: User: Searchbar filter - *"As a user, I can search for posts with keywords, so that I can find the posts and user profiles that I prefer to see."* ✅
 
-14: User: View liked/saved posts - *"As a logged in user I can view the posts I liked/saved so that I can find the posts that I love."* ✅
+18: User: View liked/saved posts - *"As a logged in user I can view the posts I liked/saved so that I can find the posts that I love."* ✅
 
-15: User: View posts of followed users - *"As a logged in user I can view content filtered by users I follow so that I can keep up to date with them specifically."* ✅
+19: User: Infinite scroll - *"As a user I can keep scrolling through the images on the site, which are loaded automatically so that there is no need for a "next page/previous page" option."* ✅
 
-16: User: Infinite scroll - *"As a user I can keep scrolling through the images on the site, which are loaded automatically so that there is no need for a "next page/previous page" option."* ✅
+20: User: Edit posts/comments - *"As a signed in user, I can edit my posts and comments so that I can change them if I want to."* ✅
 
-17: User: Post page - *"As a user I can view the single post page so that I can read the comments specifically about that post."* ✅
+21: User: Delete posts/comments - *"As a signed in user, I can delete my posts and comments so that I can have control over what I show."* ✅
 
-18: User: Edit/delete post - *"As a post owner I can edit/delete my post title, description and image so that I can make corrections or update my post after it was created."* ✅
+22: User: Most popular profiles - *"As a user I can see a list of the most followed profiles so that I can see which profiles are popular and see their posts."* ✅
 
-19: User: Create a comment - *"As a logged in user I can add comments to a post so that I can share my opinions about the post and start/have a conversation."* ✅
+23: User: Follow/Unfollow a user - *"As a logged in user I can follow and unfollow users so that I can see and remove posts by specific users in my posts feed."* ✅
 
-20: User: View comment date - *"As a user I can see how long ago a comment was made so that I know how old or new a comment is."* ✅
+24: User: Edit profile - *"As a logged in user I can edit my profile so that I can change my profile picture, name and bio to keep my followers updated."* ✅
 
-21: User: View comments - *"As a user I can read comments on posts so that I can read what other users think about the posts and reply to them accordingly."* ✅
+25: User: Delete profile - *"As a logged in user I can delete my profile in case I decide to leave this social media."* - Future implementation.
 
-22: User: Edit/delete a comment - *"As an owner of a comment I can edit and/or delete my comment so that I can edit/remove my comment from the application."* ✅
+26: User: Update username and password - *"As a logged in user I can update my username and password so that I can change my display name and keep my profile more secure."* ✅
 
-23: User: View profile page - *"As a user I can view other user's profiles so that I can see their posts and bio and read more about them."* ✅
+27: User: Unlike/unsave a post - *"As a user I can unlike/unsave a post so that I can change what I see in my liked/saved feed."* ✅
 
-24: User: Most popular profiles - *"As a user I can see a list of the most followed profiles so that I can see which profiles are popular and see their posts."* ✅
 
-25: User: User profile - view user stats - *"As a user I can view statistics about a specific user: bio, number of posts, followers and users followed so that I can read more about them."* ✅
-
-26: User: Follow/Unfollow a user - *"As a logged in user I can follow and unfollow users so that I can see and remove posts by specific users in my posts feed."* ✅
-
-27: User: View/filter all posts by a specific user - *"As a user I can view all the posts by a specific user by filtering so that I can catch up on their latest posts, or decide to follow them."* ✅
-
-28: User: Edit profile - *"As a logged in user I can edit my profile so that I can change my profile picture, name and bio to keep my followers updated."* ✅
-
-29: User: Delete profile - *"As a logged in user I can delete my profile in case I decide to leave this social media."* - Future implementation.
-
-30: Update username and password - *"As a logged in user I can update my username and password so that I can change my display name and keep my profile more secure."* ✅
-
-31: User: "Bark/Meow" at fellow user - *"As a user I can "bark/meow" so that I can get the attention of another user."* - Future implementation.
-
-32: Admin: Complete README documentation - *"Complete README, fully documenting sources, and all about the frontend and frameworks used."* ✅
-
-33: User: Unlike/unsave a post - *"As a user I can unlike/unsave a post so that I can change what I see in my liked/saved feed."* ✅
-
-34: User: Toggle button - *"As a user I can toggle the post images so that I can see them in different formats."* ✅
-
-The link To GitHub KanBan Project - [here](https://github.com/users/JodyMurray/projects/11)
+The link To GitHub KanBan Project - [here](https://github.com/users/Krnsand/projects/5)
 
 ### **Fixed bugs and solutions**
 
-- TokenTimestamp wasn't functioning as it should.
-    * Solution: A spelling error fix solved the issue.
-
-- The reply count upon testing wasn't going up in count as a reply is added.
-    * Solution: The variable was wrongly named "replies_count", resolved once renamed "reply_count".
-
-- For smaller screen sizes, the nav link's text and icons are stacked on top of each other.
-    * Solution: Reduce padding, and size of the font and reduce the margin on the logo as it was pushing everything to the right.
-
-- An error logged to the console for the logo/favicon image. 
-    * Solution: I deleted the original favicon.io 16x16 images when I first opened the project, once these were added, the error disappeared.
-
-- Errors would show up in the console claiming that there were several icons with "class" instead of "className" from copying and pasting from font awesome.
-    * Solution: Searching all icons in the sidebar on GitHub, this was quickly resolved.
-
-- When the reply icon was clicked on, the page wasn't redirecting to the reply section on the post page.
-    * Solution: There was an unnecessary space in the link - {posts/$id}.
-
-- There was an issue with logging in through safari, once I added the credentials it would jump back to the sign-in page.
-    * Solution: Upon researching in Slack, the issue was with the JWT json web token as a HTTP-only cookie in the browser,
-    in the settings in Safari, enabling "Allow cross-website tracking" resolved the issue and it was possible to sign-in.
-
+- The speech bubble icon did not change color while being hovered over.
+    * Solution: .
 
 ### **Unfixed bugs**
 - No unfixed bugs to report during the production of this project.
@@ -513,6 +481,7 @@ The link To GitHub KanBan Project - [here](https://github.com/users/JodyMurray/p
 - There are errors in the console of these pages, that were also brought up during the walkthrough Moments. The errors are as follows:
 
 *Failed to load resource: the server responded with a status of 401 (Unauthorized)*
+
 
 
 ## **Deployment**
