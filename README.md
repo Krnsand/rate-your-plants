@@ -125,13 +125,6 @@ The color palette as mentioned above.
 ![screenshot](documentation/test_screenshots/logo.png)
 
 
-
-### **Typography**
-
-All fonts are from the Google Fonts library. The following fonts were chosen for the page:
-- 'Hanken Grotesk', sans-serif for the headers in the SignInUpForms.
-- 'Raleway', sans-serif for the rest of the font on the page.
-
 ### **Iconography**
 
 - Most icons were taken from [Font Awesome](https://fontawesome.com/)
@@ -231,6 +224,12 @@ The Saved page consists of posts the user has specifically saved for future view
 
 ![screenshot](documentation/features/profile.png)
 
+### **Create Post Page**
+ 
+- The create post page contains a section to upload an image, as well as a title and content section.
+
+![screenshot](documentation/features/create.png)
+
 ### **Sign-in**
 
 Sign-in page, along with a link to sign up for an account if you haven't already!
@@ -259,27 +258,27 @@ The CRUD functionality for this project is as follows:
 * The user can, once signed up to an account, update their profile with a profile picture/bio. They can also update their username and password from the profile page.
 * The user can also, once a post has been created, update or delete their post. The three dots on the right of the post's image will either delete the post (and bring you back to the home page once this is done) or edit your post, bringing you to an edit post form.
 * Users can also, once they've created a comment on a post, delete or edit their comments. If chosen, editing a comment will bring up a small form to retype your comment and then you can either save or close if you change your mind.
-* Users can also upvote, downvote and/or save posts, and you can also undo all of these actions if they changed their minds.
+* Users can also save posts, and you can also undo all of these actions if they changed their minds.
 * Users can also follow other users' accounts and unfollow them if they desire.
+
 
 ### **Defensive Design**
 
 * When making a new account, the following message will appear if any of the inputs are left blank:
 
-![screenshot](documentation/test_screenshots/signupDefensive.png)
+![screenshot](documentation/test_screenshots/signup-test.png)
 
 * Login attempts with the wrong credentials, will show the following message: 
 
-![screenshot](documentation/test_screenshots/loginDefensive.png)
+![screenshot](documentation/test_screenshots/signin-wrong.png)
 
 * Login attempts leaving any input blank, will show the following message: 
 
-![screenshot](documentation/test_screenshots/loginDefensive2.png)
+![screenshot](documentation/test_screenshots/signin-test.png)
 
-* Attempts to save or vote for your posts will show the following messages: 
+* Attempts to save one's own posts will show the following message: 
 
-![screenshot](documentation/test_screenshots/savedDefensive.png)
-![screenshot](documentation/test_screenshots/votePostDefensive.png)
+![screenshot](documentation/test_screenshots/no-save.png)
 
 * If you choose to edit or delete your post, clicking the three dots on the right side of the post's image on the post page, will show the following pop-up messages once you hover over each icon, to ensure you know what you're doing before you click:
 
@@ -287,13 +286,9 @@ The CRUD functionality for this project is as follows:
 
 ![screenshot](documentation/test_screenshots/DeletePostDefensive.png)
 
-* In the "Add post" section, leaving the title input blank will show the following message:
+* In the "Add post" section, leaving the title input blank, or not choosing an image file, will show the following message:
 
-![screenshot](documentation/test_screenshots/addPostDefensive.png)
-
-- Users who forget to add an image while creating a post will still see the post published, with a default image as shown below. Going back into the post page and editing the post will allow the user to rechoose an image:
-
-![screenshot](documentation/test_screenshots/defaultImage.png)
+![screenshot](documentation/test_screenshots/no-create.png)
 
 
 ### **Future Implementations**
