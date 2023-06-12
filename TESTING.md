@@ -132,8 +132,8 @@ The link To GitHub KanBan Project - [here](https://github.com/users/Krnsand/proj
 
 ### **Fixed bugs and solutions**
 
-- The speech bubble icon did not change color while being hovered over.
-    * Solution: .
+- The reviews disapeared when the pages were refreshed.
+    * Solution: I had missed to connect the reviews to the api, after adding another axiosReq.get it worked great.
 
 ### **Unfixed bugs**
 - Writing a very long id (for example: /profiles/123jkhkjh4e3/) does not raise an error, t just loads forever. This is something I will look into in the future.
