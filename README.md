@@ -6,18 +6,18 @@ This project is the final of 5 projects that need to be completed to receive a d
 
 ## **Responsive screen display**
 
-![screenshot](documentation/test_screenshots/responsive.png)
+![screenshot](documentation/test_screenshots/am-i-responsive.png)
 
 
-A live version of this website will be found here: https://pet-friends.herokuapp.com/
+A live version of this website will be found here: https://rate-your-plants.herokuapp.com/
 
-* Deployed FrontEnd - https://pet-friends.herokuapp.com/
+* Deployed FrontEnd - https://rate-your-plants.herokuapp.com/
 
-* Deployed BackEnd API - https://petfriends-api.herokuapp.com/
+* Deployed BackEnd API - https://ryp-api.herokuapp.com/
 
-* BackEnd Repo - https://github.com/JodyMurray/my-api.git
+* BackEnd Repo - https://github.com/Krnsand/ryp-api
 
-* FrontEnd Repo - https://github.com/JodyMurray/petfriends.git
+* FrontEnd Repo - https://github.com/Krnsand/rate-your-plants/tree/main
 
 
 
