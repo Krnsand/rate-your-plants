@@ -22,7 +22,7 @@ This project has been continuously tested throughout the development stages usin
 
 #### **LightHouse testing**
 
-- All results for **performance** are extremely bad even after drastically compressing all the images.
+- Most results for **performance** are extremely bad even after drastically compressing all the images.
 
 * **For Desktop:**
 
@@ -61,7 +61,7 @@ Manual testing for this project was carried out as follows:
 - Clicking on the post image brings you to the post's page.
 - You can save and undo these actions if you change your mind.
 - Once you hover over the save/comment icons, they let you know if you need to sign-in to use this feature, and once clicked on if the user is signed out, you will be redirected to the sign-in page.
-- The user is notified of what each icon represents. In each post page, if the user is the owner, the three dots to the right side of the post image will bring up the edit and delete feature, both icons have an overlay trigger to indicate which one does what feature.
+- The user is notified of what each icon represents. In each post page, if the user is the owner, the three dots to the right side of the post image will bring up the edit and delete feature.
 - The site was continuously built on google chrome, and once built, it was successfully tested on firefox browser, and edge browser. No issues with either browser.
 
 ### **User story testing**
