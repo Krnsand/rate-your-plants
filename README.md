@@ -22,73 +22,54 @@ A live version of this website will be found here: https://rate-your-plants.hero
 
 
 ## **Table of Contents** ##
-<details><summary>UX</summary>
-
-- [User Demographic](#user-demographic "User Demographic")
-- [Site Goals](#site-goals "Site Goals")
-- [Audience](#audience "Audience")
-- [User Stories](#user-stories "User Stories")
-
-</details>
-<details><summary>Design</summary>
-
-- [Colour Scheme](#color-scheme "Color Scheme")
-- [Iconography](#iconography "Iconography")
-- [Wireframes](#wireframes "Wireframes")
-- [Images](#images "Images")
-
-</details>
-<details><summary>Features</summary>
-
-- [NavBar](#navbar "NavBar")
-- [Home Landing Page](#home-landing-page "Home Landing Page")
-- [Post Page](#post-page "Post Page")
-- [Feed](#feed "Feed")
-- [Saved](#saved "Saved")
-- [Profile Page](#profile-page "Profile Page")
-- [Sign-in](#sign-in "Sign-in")
-- [Sign-up](#sign-up "Sign-up")
-- [No results found](#no-results-found "No results found")
-- [CRUD](#crud "CRUD")
-- [Defensive Design](#defensive-design "Defensive Design")
-- [Future Implementations](#future-implementations "Future Implementations")
-- [Components](#components "Components")
-
-</details>
-
-<details><summary>Technologies Used</summary>
-
-- [Languages Used](#languages-used "Languages Used")
-- [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used "Frameworks, Libraries and Programs Used")
-- [Databases platform and cloud storage](#databases-platform-and-cloud-storage "Databases platform and cloud storage")
-
-</details>
-<details><summary>Testing</summary>
-
-- [Introduction](#introduction "Introduction")
-- [Validator testing](#validator-testing "Validator Testing")
-- [Manual Testing](#manual-testing "Manual Testing")
-- [User Story Testing](#user-story-testing "User Story Testing")
-- [Fixed Bugs and Solutions](#fixed-bugs-and-solutions "Fixed Bugs and Solutions") 
-- [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
-
-</details>
-
-<details><summary>Deployment</summary>
-
-- [GitHub](#github "GitHub")
-- [Heroku](#heroku "heroku")
-
-</details>
 
 
-<details><summary>Credits</summary>
+* [UX](#ux "UX")
+    * [User Demographic](#user-demographic "User Demographic")
+    * [Site Goals](#site-goals "Site Goals")
+    * [Audience](#audience "Audience")
+    * [User Stories](#user-stories "User Stories")
 
-- [Acknowledgements](#acknowledgements "Acknowledgements")
-- [Sources](#sources "Sources")
-- [Media](#media "Media")
+* [Design](#design "Design")
+    * [Color Scheme](#color-scheme "Color Scheme")
+    * [Iconography](#iconography "Iconography")
+    * [Wireframes](#wireframes "Wireframes")
+    * [Images](#images "Images")
 
-</details>
+* [Features](#features "Features")
+    * [NavBar](#navbar "NavBar")
+    * [Home Landing Page](#home-landing-page "Home Landing Page")
+    * [Post Page](#post-page "Post Page")
+    * [Feed](#feed "Feed")
+    * [Saved](#saved "Saved")
+    * [Profile Page](#profile-page "Profile Page")
+    * [Sign-in](#sign-in "Sign-in")
+    * [Sign-up](#sign-up "Sign-up")
+    * [No results found](#no-results-found "No results found")
+    * [CRUD](#crud "CRUD")
+    * [Defensive Design](#defensive-design "Defensive Design")
+    * [Future Implementations](#future-implementations "Future Implementations")
+    * [Components](#components "Components")
+
+
+* [Technologies Used](#technologies-used "Technologies Used")
+    * [Languages Used](#languages-used "Languages Used")
+    * [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used "Frameworks, Libraries and Programs Used")
+    * [Databases platform and cloud storage](#databases-platform-and-cloud-storage "Databases platform and cloud storage")
+
+* [Testing](#testing "Testing")
+    * [Introduction](#introduction "Introduction")
+    * [Testing File](TESTING.md)
+
+* [Deployment](#deployment "Deployment")
+    * [GitHub](#github "GitHub")
+    * [Heroku](#heroku "heroku")
+
+* [Credits](#credits "Credits")
+    * [Acknowledgements](#acknowledgements "Acknowledgements")
+    * [Sources](#sources "Sources")
+    * [Media](#media "Media")
+
 
 ------------------------------------------------------------------------------------------------------------
 
