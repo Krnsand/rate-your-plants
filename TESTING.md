@@ -29,24 +29,24 @@ This project has been continuously tested throughout the development stages usin
     | Section | Performance | Accessibility | Best Practices | SEO |
     | --- | --- | --- | --- | --- |
     | Home | 42 | 97 | 92 | 91 |
-    | Post Page | 45 | 97 | 92 | 100 |
-    | Feed | 29 | 97 | 92 | 100 |
-    | Saved | 30 | 97 | 92 | 100 |
+    | Post Page | 52 | 97 | 92 | 100 |
+    | Feed | 59 | 97 | 92 | 100 |
+    | Saved | 48 | 97 | 92 | 100 |
     | Sign Up | 89 | 88 | 83 | 91 |
     | Sign in | 92 | 88 | 83 | 91 |
-    | Profile | 48 | 86 | 92 | 91 |
+    | Profile | 83 | 86 | 92 | 91 |
 
 * **For Mobile devices:**
 
     | Section | Performance | Accessibility | Best Practices | SEO |
     | --- | --- | --- | --- | --- |
     | Home | 50 | 97 | 92 | 100 |
-    | Post Page | 22 | 97 | 92 | 100 |
+    | Post Page | 41 | 97 | 92 | 100 |
     | Feed | 41 | 97 | 92 | 100 |
-    | Saved | 27 | 97 | 92 | 100 |
+    | Saved | 46 | 97 | 92 | 100 |
     | Sign Up | 90 | 97 | 83 | 100 |
     | Sign in | 91 | 97 | 83 | 100 |
-    | Profile | 39 | 87 | 92 | 92 |
+    | Profile | 42 | 87 | 92 | 92 |
 
 
 ### **Manual Testing**
@@ -138,7 +138,9 @@ The link To GitHub KanBan Project - [here](https://github.com/users/Krnsand/proj
 ### **Unfixed bugs**
 - Writing a very long id in the url (for example: .../profiles/123jkhkjh4e3/) does not raise an error, it just loads forever. This is something I will look into in the future.
 
-- The review count does not want to work, as time has run away from me I will not fix this bug right now
+- The review count does not want to work, due to time issues that will have to be fixed in the future
+
+- The edit button for reviews is not working, due to time issues that will have to be fixed in the future
 
 - There are errors in the console of these pages, that were also brought up during the walkthrough Moments. The errors are as follows:
 
